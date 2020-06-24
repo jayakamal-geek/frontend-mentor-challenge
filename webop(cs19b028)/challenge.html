@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>webops challenge</title>
+		<link href="https://fonts.google.com/specimen/Poppins" rel='stylesheet'>
+		<style>
+			body{
+				background-image: url("bg-intro-desktop.png");
+				background-color: hsl(0, 100%, 74%);
+				font-size: 16px;
+				font-family: 'Poppins', sans-serif;
+				text-align: center;
+			}
+			
+			
+			.text{
+				color: white;
+				height: 100%;
+				width: 42%;
+				vertical-align: middle;
+				margin-top: 19.5%;
+				float: left;
+			}
+			
+			
+			.text1{
+				font-size: 50px;
+				vertical-align: middle;
+				padding-left: 8%;
+			}
+			
+			
+			.text2{
+				padding-left: 16%;
+				text-align: left;
+				vertical-align: middle;
+				padding-left: 23%;
+				font-size: 18px;
+			}
+			
+			
+			.container{
+				float: right;
+				margin-top: 9%;
+				margin-right: 18%;
+				width: 37%;
+			}
+			
+			.container1{
+				background-color: hsl(248, 32%, 49%);
+				color: white;
+				font-size: 16px;
+				border-radius: 5px;
+				height: 50px;
+				box-shadow: 0px 10px 7px hsla(0, 0%, 0%, 0.3);
+			}
+			
+			
+			.container2{
+				padding-top: 10px;
+				font-size: 16px;
+				margin-top: 6%;
+				background-color: white;		
+				border-radius: 8px;
+				width: 100%;
+				box-shadow: 0px 10px 7px hsla(0, 0%, 0%, 0.3);
+				margin-bottom: 10px;
+			}
+			
+			
+			.button{
+				background-color: hsl(154, 59%, 51%);
+				width: 75%;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				box-shadow: 0px 5px 3px black;
+				padding: 12px 20px;			
+				display: inline-block;				
+			}
+			
+			
+			.button:hover{
+				background-color: green;
+			}
+			
+			
+			input{
+				width: 75%;
+				padding: 12px 20px;
+				display: inline-block;
+			}
+			
+			@media only screen and (max-width: 900px){
+				body{
+					display: flex;
+					flex-wrap: wrap;
+					background-image: url("bg-intro-mobile.png");
+				}
+				
+				.text{
+					width: 96%;
+					margin: 2%;
+				}
+				
+				
+				.container{
+					width: 80%;
+					margin: 10%;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="text">
+			<div class="text1">
+				<b>Learn to code by watching others</b>
+			</div><br>
+			
+			<div class="text2">
+				See how experienced developers solve problems in real-time.
+				Watching scripted tutorials is great, but understanding how developers think is invaluable
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="container1">
+				<br><b>Try it free 7 days</b> then $20/mo. thereafter
+			</div>
+			
+			<div class="container2">
+				<form action="" method="">	
+					<br><input type="text" placeholder=" First Name" required autofocus size="25" style="align: center; border: 1px solid hsl(246, 25%, 77%);"><br><br>
+					<input type="text" placeholder=" Last Name" required autofocus size="25" style="align: center; border: 1px solid hsl(246, 25%, 77%);"><br><br>
+					<input type="email" placeholder=" Email address" required autofocus size="25" style="align: center; border: 1px solid hsl(246, 25%, 77%);"><br><br>
+					<input type="password" placeholder=" Password" required autofocus size="25" style="align: center; border: 1px solid hsl(246, 25%, 77%);"><br><br>
+					<button type="submit" class="button">
+						CLAIM YOUR FREE TRAIL
+					</button><br>
+					<p style="color: grey; font-size:12px; ">By clicking the button you are agreeing to our <a style="color: red; text-decoration: none;" href="#">Terms and Services</a></p><br>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
